@@ -1,0 +1,246 @@
+/*===========змінні================*/
+:root{
+    --primary-text-color:#434455;
+    --accent-text-color: #2E2F42;
+    --primary-background-color:#FFFFFF;
+    --accent-background-color:#F4F4FD;
+    --accent-background-btn:#E7E9FC;
+    --accent-color: #4D5AE5;
+    --accent-color-btn:#404BBF;
+    --primary-font-family:'Roboto', sans-serif;
+    --accent-font-family:'Raleway', sans-serif;
+}
+/*===========загальне оформлення==============*/
+body{
+    font-family:var(--primary-font-family);
+    color: var(--primary-text-color);
+    background-color:var(--primary-background-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+.title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.section{
+    color:var(--accent-text-color);
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+/*====оформлення хедера для студіо та портфоліо======*/
+/* .header-page {
+} */
+.header-page {
+    color: var(--accent-text-color);
+}
+.header-page .link {
+    color: var(--accent-text-color);
+}
+.header-page .link:hover,
+.header-page .link:focus {
+    color:var(--accent-color);
+}
+/* .header-navigation {
+} */
+.header-logo { 
+    font-family:var(--accent-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+}
+.web{
+    color:var(--accent-color);
+    order: 0;
+}
+.studio{
+    color:var(--accent-text-color);
+    order: 1;
+}
+/* .header-lists{} */
+.header-list-item {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--accent-text-color);
+    letter-spacing: 0.02em; 
+}
+
+/* .header-info {
+} */
+.header-mailto {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+}
+.header-telefone {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+}
+    /* ===================оформлення студіо=================== */
+/* оформлення мейна */
+/* .main-page{
+} */
+/* оформлення мейна секція один */
+.hero {
+background-color:var(--accent-text-color);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+    color: var(--primary-background-color);
+    letter-spacing: 0.02em;
+}
+.hero-button {
+    font-family:var(--primary-font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    color: var(--primary-background-color);
+    background-color:var(--accent-color);
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    border: none;
+}
+.hero-button:hover,
+.hero-button:focus{
+    background-color:var(--accent-color-btn);
+} 
+/* оформлення мейна секція два */
+/* .direction {
+} */
+/* .direction-title {
+} */
+/* .direction-list {
+} */
+/* .direction-item {
+} */
+.direction-direction {
+color: var(--accent-text-color)
+}
+/* .direction-text {
+}  */
+/* оформлення мейна секція три */
+/* .work {
+}
+.work-title {
+
+}
+.work-list {
+}
+.work-item {
+}
+.work-images {
+}
+.persone-item {
+} */
+/* оформлення мейна секція чотири*/
+.tem {
+    background-color:var(--accent-background-color);
+}
+/* .team-title {
+}
+.team-man {
+}
+.team-list {
+}
+.team-images{
+} */
+.team-name {
+    color:var(--accent-text-color)
+}
+/* .team-text {
+}  */
+/*======оформлення футера для студіо і портфоліо===========*/
+.footer-page {
+    background-color:var(--accent-text-color);
+}
+.footer-logo {
+    font-family:var(--accent-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    flex-grow: 0;
+    flex: none;
+}
+.web-logo{
+    color:var(--accent-color);
+    order: 0; 
+}
+.studio-logo{
+    color: var(--primary-background-color);
+    order: 1;
+}
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-background-color);
+}
+/* =============оформлення портфоліо=================== */
+/* оформлення мейна */
+/* .main-porfolio {
+} */
+/* офрмлення секції один */
+ /* .portfolio {
+} */
+.portfolio-link{
+} 
+.portfolio-button{
+    font-family:var(--primary-font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--accent-color);
+    background:var(--accent-background-btn);
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+.portfolio-button:hover{
+    color:var(--primary-background-color);
+    background-color: var(--accent-color);
+}
+/* .portfolio-button:focus{
+} */
+/* оформлення секції два */
+/* .product {
+}
+.product-list {
+}
+.product-item {
+}
+.product-images {
+} */
+.product-decscription {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    color:var(--accent-text-color);
+    letter-spacing: 0.02em;
+}
+/* .product-text {
+  
+} */
+
