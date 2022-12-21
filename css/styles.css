@@ -19,6 +19,18 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+h1,h2,h3,p{
+margin-top: 0;
+margin-bottom: 0;
+}
+ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
 .list{
     list-style: none;
 }
@@ -30,14 +42,16 @@ body{
     font-size: 20px;
     line-height: 1.2;
 }
-.section{
+.modal{
     color:var(--accent-text-color);
     font-weight: 600;
     font-size: 36px;
     line-height: 1.1;
 }
 .container{
-    
+    width: 1128px;
+}
+.body{
 }
 /*====оформлення хедера для студіо та портфоліо======*/
 /* .header-page {
