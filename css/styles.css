@@ -50,7 +50,8 @@ img{
 }
 .container{
     width: 1128px;
-    
+    margin-left: 156px;
+    margin-right: 156px;
 }
 .body{
 }
