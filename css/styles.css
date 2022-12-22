@@ -81,10 +81,12 @@ img{
     align-items: flex-start;
     padding: 0px;
     flex: none;
+
 }
 .web{
     color:var(--accent-color);
     order: 0;
+    
 }
 .studio{
     color:var(--accent-text-color);
