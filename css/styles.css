@@ -18,6 +18,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 1440px;
 }
 h1,h2,h3,p{
 margin-top: 0;
@@ -52,6 +53,7 @@ img{
     width: 1128px;
     margin-left: 156px;
     margin-right: 156px;
+   outline: 1px ;
 }
 .body{
 }
@@ -68,11 +70,13 @@ img{
 .header-page .link:focus {
     color:var(--accent-color);
 }
-/* .header-navigation {
-} */
+.header-navigation {
+
+display: flex;
+} 
 .header-logo { 
     font-family:var(--accent-font-family);
-    font-weight: 800;
+    font-weight: 800px;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.03em;
@@ -81,7 +85,6 @@ img{
     align-items: flex-start;
     padding: 0px;
     flex: none;
-
 }
 .web{
     color:var(--accent-color);
@@ -92,7 +95,14 @@ img{
     color:var(--accent-text-color);
     order: 1;
 }
-/* .header-lists{} */
+.header-lists{
+    display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 40px;
+        
+}
 .header-list-item {
     font-weight: 700;
     font-size: 16px;
@@ -102,18 +112,21 @@ img{
 }
 
 /* .header-info {
+    
 } */
 .header-mailto {
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color);
     letter-spacing: 0.02em;
+    display: block;
 }
 .header-telefone {
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color);
     letter-spacing: 0.02em;
+    display: block;
 }
     /* ===================оформлення студіо=================== */
 /* оформлення мейна */
@@ -122,6 +135,8 @@ img{
 /* оформлення мейна секція один */
 .hero {
 background-color:var(--accent-text-color);
+text-align: center;
+
 }
 .hero-title {
     font-weight: 700;
@@ -129,6 +144,7 @@ background-color:var(--accent-text-color);
     line-height: 1.1;
     color: var(--primary-background-color);
     letter-spacing: 0.02em;
+    
 }
 .hero-button {
     font-family:var(--primary-font-family);
@@ -147,13 +163,16 @@ background-color:var(--accent-text-color);
 } 
 /* оформлення мейна секція два */
 /* .direction {
-} */
+}  */
 /* .direction-title {
+    
+    
 } */
-/* .direction-list {
-} */
+.direction-list {
+    display: flex;
+} 
 /* .direction-item {
-} */
+}  */
 .direction-direction {
 color: var(--accent-text-color)
 }
@@ -161,13 +180,14 @@ color: var(--accent-text-color)
 }  */
 /* оформлення мейна секція три */
 /* .work {
-}
+} */
 .work-title {
-
+text-align: center;
 }
 .work-list {
+    display: flex;
 }
-.work-item {
+/* .work-item {
 }
 .work-images {
 }
@@ -177,16 +197,19 @@ color: var(--accent-text-color)
 .tem {
     background-color:var(--accent-background-color);
 }
-/* .team-title {
+.team-title {
+    text-align: center;
 }
 .team-man {
+    display:flex;
 }
-.team-list {
+/* .team-list {
 }
 .team-images{
 } */
 .team-name {
-    color:var(--accent-text-color)
+    color:var(--accent-text-color);
+    
 }
 /* .team-text {
 }  */
@@ -226,8 +249,8 @@ color: var(--accent-text-color)
 /* офрмлення секції один */
  /* .portfolio {
 } */
-.portfolio-link{
-} 
+/* .portfolio-link{
+}  */
 .portfolio-button{
     font-family:var(--primary-font-family);
     font-weight: 700;
@@ -246,10 +269,11 @@ color: var(--accent-text-color)
 } */
 /* оформлення секції два */
 /* .product {
-}
+} */
 .product-list {
+
 }
-.product-item {
+/* .product-item {
 }
 .product-images {
 } */
