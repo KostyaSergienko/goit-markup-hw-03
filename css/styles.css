@@ -53,7 +53,7 @@ img{
     width: 1128px;
     margin-left: 156px;
     margin-right: 156px;
-   outline: 1px ;
+   outline: 2px solid red;
 }
 .body{
 }
@@ -156,6 +156,7 @@ text-align: center;
     letter-spacing: 0.02em;
     cursor: pointer;
     border: none;
+   
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -271,7 +272,9 @@ text-align: center;
 /* .product {
 } */
 .product-list {
-
+display: flex;
+flex-wrap: wrap;
+gap: ;
 }
 /* .product-item {
 }
