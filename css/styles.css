@@ -43,7 +43,7 @@ body{
     text-decoration: none;
 }
 .title{
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
@@ -112,7 +112,7 @@ display: flex;
         margin-left: 72px;       
 }
 .header-list-item {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color:var(--accent-text-color);
@@ -123,6 +123,7 @@ display: flex;
 
 }
 .header-mailto {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color);
@@ -130,6 +131,7 @@ display: flex;
     
 }
 .header-telefone {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color);
@@ -186,10 +188,12 @@ padding-top: 188px;
 /* .direction-item {
 }  */
 .direction-direction {
-color: var(--accent-text-color)
+color: var(--accent-text-color);
+margin-bottom: 8px;
 }
-/* .direction-text {
-}  */
+.direction-text {
+    font-weight: 400;
+} 
 /* оформлення мейна секція три */
 .work {
     padding-bottom: 120px;
@@ -227,10 +231,13 @@ margin-bottom: 72px;
 } */
 .team-name {
     color:var(--accent-text-color);
-    
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
-/* .team-text {
-}  */
+.team-text {
+    margin-bottom: 32px;
+    font-weight: 400;
+} 
 /*======оформлення футера для студіо і портфоліо===========*/
 .footer-page {
     background-color:var(--accent-text-color);
@@ -258,6 +265,7 @@ margin-bottom: 72px;
     order: 1;
 }
 .footer-text {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-background-color);
@@ -305,13 +313,16 @@ padding-bottom: 120px;
 .product-images {
 } */
 .product-decscription {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color:var(--accent-text-color);
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
-/* .product-text {
-  
-} */
+.product-text {
+font-weight: 400;
+margin-bottom: 32px;
+}
 
