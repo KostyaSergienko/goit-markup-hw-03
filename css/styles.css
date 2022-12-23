@@ -193,11 +193,12 @@ color: var(--accent-text-color)
 /* оформлення мейна секція три */
 .work {
     padding-bottom: 120px;
+ 
 }
 .work-title {
 text-align: center;
 padding-bottom: 120x;
-padding-top: 120px
+margin-bottom: 72px;
 }
 .work-list {
     display: flex;
@@ -212,7 +213,6 @@ padding-top: 120px
 /* оформлення мейна секція чотири*/
 .tem {
     background-color:var(--accent-background-color);
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 .team-title {
