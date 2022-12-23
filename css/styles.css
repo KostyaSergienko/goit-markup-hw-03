@@ -60,8 +60,13 @@ body{
     outline: 1px solid red;
     margin: 0 auto;
 }
-.body{
-}
+/* .body{
+    position: relative;
+    width: 1440px;
+    height: 2590px;
+    left: 370px;
+} */
+
 /*====оформлення хедера для студіо та портфоліо======*/
 /* .header-page {
 } */
@@ -103,13 +108,13 @@ display: flex;
 }
 .header-lists{
     display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        padding: 0px;
-        gap: 40px;
-        margin-top: 24px;
-        margin-bottom: 24px;
-        margin-left: 72px;       
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 72px;       
 }
 .header-list-item {
     font-weight: 500;
@@ -118,17 +123,20 @@ display: flex;
     color:var(--accent-text-color);
     letter-spacing: 0.02em; 
 }
-
-.header-info {
-
+.header-page > .container{
+    display: flex;
+    align-items: center;
 }
+/* .header-info {
+
+} */
 .header-mailto {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color);
     letter-spacing: 0.02em;
-    
+   
 }
 .header-telefone {
     font-weight: 400;
@@ -154,6 +162,8 @@ padding-top: 188px;
     line-height: 1.1;
     color: var(--primary-background-color);
     letter-spacing: 0.02em;
+    text-align:center;
+
     
 }
     
@@ -167,7 +177,6 @@ padding-top: 188px;
     letter-spacing: 0.02em;
     cursor: pointer;
     border: none;
-   
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -218,9 +227,11 @@ margin-bottom: 72px;
 .tem {
     background-color:var(--accent-background-color);
     padding-bottom: 120px;
+    padding-top: 120px;
 }
 .team-title {
     text-align: center;
+    margin-bottom: 72px;
 }
 .team-man {
     display:flex;
@@ -269,6 +280,8 @@ margin-bottom: 72px;
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-background-color);
+    margin-top: 16px;
+    margin-bottom: 100px;
 }
 /* =============оформлення портфоліо=================== */
 /* оформлення мейна */
