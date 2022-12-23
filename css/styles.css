@@ -11,6 +11,23 @@
     --accent-font-family:'Raleway', sans-serif;
 }
 /*===========загальне оформлення==============*/
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
 body{
     font-family:var(--primary-font-family);
     color: var(--primary-text-color);
@@ -19,18 +36,6 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 1440px;
-}
-h1,h2,h3,p{
-margin-top: 0;
-margin-bottom: 0;
-}
-ul{
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
-}
-img{
-    display: block;
 }
 .list{
     list-style: none;
@@ -50,10 +55,11 @@ img{
     line-height: 1.1;
 }
 .container{
-    width: 1128px;
-    margin-left: 156px;
-    margin-right: 156px;
+    width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
    outline: 2px solid red;
+  
 }
 .body{
 }
@@ -112,7 +118,7 @@ display: flex;
 }
 
 /* .header-info {
-    
+
 } */
 .header-mailto {
     font-size: 16px;
