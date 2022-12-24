@@ -54,35 +54,32 @@ body{
     line-height: 1.1;
 }
 .container{
-    width: 1158px;
-    padding-left: 15px;
-    padding-right:15px;
+    width: 1128px;
     outline: 1px solid red;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-/* .body{
-    position: relative;
-    width: 1440px;
-    height: 2590px;
-    left: 370px;
-} */
 
 /*====оформлення хедера для студіо та портфоліо======*/
 /* .header-page {
 } */
 .header-page {
     color: var(--accent-text-color);
-   
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 .header-page .link {
     color: var(--accent-text-color);
+   
 }
 .header-page .link:hover,
 .header-page .link:focus {
     color:var(--accent-color);
 }
 .header-navigation {
-display: flex;
+    display: flex;
+    align-items: center;
+
 } 
 .header-logo { 
     font-family:var(--accent-font-family);
@@ -95,8 +92,8 @@ display: flex;
     align-items: flex-start;
     padding: 0px;
     flex: none;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-right: 76px;
+    
 }
 .web{
     color:var(--accent-color);
@@ -108,14 +105,9 @@ display: flex;
 }
 .header-lists{
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 72px;       
 }
+
 .header-list-item {
     font-weight: 500;
     font-size: 16px;
@@ -123,13 +115,15 @@ display: flex;
     color:var(--accent-text-color);
     letter-spacing: 0.02em; 
 }
+
 .header-page > .container{
     display: flex;
-    align-items: center;
 }
-/* .header-info {
-
-} */
+.header-info {
+    margin-left: auto;
+    display: flex;
+    gap: 40px;
+}
 .header-mailto {
     font-weight: 400;
     font-size: 16px;
@@ -148,9 +142,10 @@ display: flex;
 }
     /* ===================оформлення студіо=================== */
 /* оформлення мейна */
-/* .main-page{
-} */
+.main-page{
+}
 /* оформлення мейна секція один */
+
 .hero {
 background-color:var(--accent-text-color);
 padding-bottom: 188px;
@@ -162,11 +157,15 @@ padding-top: 188px;
     line-height: 1.1;
     color: var(--primary-background-color);
     letter-spacing: 0.02em;
-    text-align:center;
-
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;   
     
 }
-    
+    .hero > .container{
+        text-align: center;
+    }
 .hero-button {
     font-family:var(--primary-font-family);
     font-weight: 500;
@@ -177,6 +176,11 @@ padding-top: 188px;
     letter-spacing: 0.02em;
     cursor: pointer;
     border: none;
+    
+    min-width: 169px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -187,21 +191,27 @@ padding-top: 188px;
     padding-top: 120px;
     padding-bottom: 120px;
 } 
-/* .direction-title {
-    
-    
-} */
+.direction-title {
+    margin-bottom: 8px; 
+}
 .direction-list {
     display: flex;
+
 } 
-/* .direction-item {
-}  */
+.direction-item {
+    margin-right: 24px;
+} 
+.direction-item:last-child{
+    margin-right: 0px;
+}
 .direction-direction {
 color: var(--accent-text-color);
 margin-bottom: 8px;
 }
 .direction-text {
     font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
 } 
 /* оформлення мейна секція три */
 .work {
@@ -217,11 +227,12 @@ margin-bottom: 72px;
     display: flex;
    
 }
-/* .work-item {
-}
-.work-images {
-}
-.persone-item {
+.work-item {
+    margin-right: 24px;
+ }
+/* .work-images {
+} 
+/* .persone-item {
 } */
 /* оформлення мейна секція чотири*/
 .tem {
@@ -236,10 +247,17 @@ margin-bottom: 72px;
 .team-man {
     display:flex;
 }
-/* .team-list {
+.team-list {
+    margin-right: 24px;
+    text-align: center;
+}
+.team-list:last-child{
+    margin-right: 0px;
 }
 .team-images{
-} */
+    width: 264px;
+    height: 260px;
+}
 .team-name {
     color:var(--accent-text-color);
     margin-top: 32px;
@@ -266,6 +284,7 @@ margin-bottom: 72px;
     text-transform: uppercase;
     flex-grow: 0;
     flex: none;
+    margin-bottom: 16px;
 }
 .web-logo{
     color:var(--accent-color);
@@ -281,18 +300,22 @@ margin-bottom: 72px;
     line-height: 1.5;
     color: var(--primary-background-color);
     margin-top: 16px;
-    margin-bottom: 100px;
+    width: 264px;
+    height: 72px;
 }
 /* =============оформлення портфоліо=================== */
 /* оформлення мейна */
 /* .main-porfolio {
 } */
 /* офрмлення секції один */
- /* .portfolio {
-} */
+ .portfolio {
+}
 .portfolio-link{
     padding-top: 96px;
     padding-bottom: 72px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 } 
 .portfolio-button{
     font-family:var(--primary-font-family);
@@ -302,7 +325,13 @@ margin-bottom: 72px;
     color:var(--accent-color);
     background:var(--accent-background-btn);
     cursor: pointer;
+    border: none;
     letter-spacing: 0.04em;
+    min-width: 69px;
+    height: 48px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    padding: 12px 24px;
 }
 .portfolio-button:hover{
     color:var(--primary-background-color);
@@ -321,9 +350,10 @@ padding-top: 72px;
 padding-bottom: 120px;
 
 }
-/* .product-item {
+.product-item {
+    padding-bottom: 48px;
 }
-.product-images {
+/* .product-images {
 } */
 .product-decscription {
     font-weight: 500;
