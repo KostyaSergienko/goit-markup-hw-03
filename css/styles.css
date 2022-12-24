@@ -65,12 +65,10 @@ body{
 /*====оформлення хедера для студіо та портфоліо======*/
 .header-page {
     color: var(--accent-text-color);
-    
     border-bottom: 1px solid #E7E9FC;
 }
 .header-page .link {
     color: var(--accent-text-color);
-   
 }
 .header-page .link:hover,
 .header-page .link:focus {
@@ -79,7 +77,6 @@ body{
 .header-navigation {
     display: flex;
     align-items: center;
-
 } 
 .header-logo { 
     font-family:var(--accent-font-family);
@@ -110,7 +107,6 @@ body{
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
 .header-list-item {
     font-weight: 500;
     font-size: 16px;
@@ -120,7 +116,6 @@ body{
     padding-top: 24px;
     padding-bottom: 24px;
 }
-
 .header-page > .container{
     display: flex;
 }
@@ -128,7 +123,6 @@ body{
     margin-left: auto;
     display: flex;
     gap: 40px;
-    
 }
 .header-mailto {
     font-weight: 400;
@@ -136,7 +130,7 @@ body{
     line-height: 1.5;
     color: var(--primary-text-color);
     letter-spacing: 0.02em;
-padding-top: 24px;
+    padding-top: 24px;
     padding-bottom: 24px;
 }
 .header-telefone {
@@ -150,8 +144,8 @@ padding-top: 24px;
 }
     /* ===================оформлення студіо=================== */
 /* оформлення мейна */
-.main-page{
-}
+/* .main-page{
+} */
 /* оформлення мейна секція один */
 
 .hero {
@@ -169,7 +163,6 @@ padding-top: 24px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 48px;   
-    
 }
 .hero > .container{
     text-align: center;
@@ -205,7 +198,6 @@ padding-top: 24px;
 }
 .direction-list {
     display: flex;
-
 } 
 .direction-item {
     margin-right: 24px;
@@ -223,9 +215,8 @@ padding-top: 24px;
     line-height: 24px;
 } 
 /* оформлення мейна секція три */
-.work {
- 
-}
+/* .work {
+} */
 .work-title {
     text-align: center;
     padding-bottom: 120x;
@@ -351,20 +342,13 @@ padding-top: 24px;
 /* .portfolio-button:focus{
 } */
 /* оформлення секції два */
-.product {
-    
-}
+/* .product {
+} */
 .product-list {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
 }
-/* .product-item {
-    max-width: 360px;
-    border: 0.5px solid #E7E9FC;
-
-} */
-
 /* .product-images {
 } */
 .product-decscription {
