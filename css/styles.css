@@ -54,19 +54,20 @@ body{
     line-height: 1.1;
 }
 .container{
-    width: 1128px;
+    width: 1158px;
     /* outline: 1px solid red; */
     margin-left: auto;
     margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /*====оформлення хедера для студіо та портфоліо======*/
-/* .header-page {
-} */
 .header-page {
     color: var(--accent-text-color);
     margin-top: 24px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
 }
 .header-page .link {
     color: var(--accent-text-color);
@@ -340,8 +341,9 @@ margin-bottom: 72px;
 /* .portfolio-button:focus{
 } */
 /* оформлення секції два */
-/* .product {
-} */
+.product {
+    
+}
 .product-list {
 display: flex;
 flex-wrap: wrap;
@@ -351,7 +353,9 @@ padding-bottom: 120px;
 
 }
 .product-item {
-    padding-bottom: 48px;
+    border: 0.5px solid #E7E9FC;
+    max-width: 360px;
+
 }
 /* .product-images {
 } */
