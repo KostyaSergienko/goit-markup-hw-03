@@ -59,12 +59,13 @@ body{
     padding-left: 15px;
     padding-right: 15px;
 }
-
+.section{
+    padding-bottom: 120px;
+}
 /*====оформлення хедера для студіо та портфоліо======*/
 .header-page {
     color: var(--accent-text-color);
-    margin-top: 24px;
-    padding-bottom: 24px;
+    
     border-bottom: 1px solid #E7E9FC;
 }
 .header-page .link {
@@ -92,7 +93,8 @@ body{
     padding: 0px;
     flex: none;
     margin-right: 76px;
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .web{
     color:var(--accent-color);
@@ -105,6 +107,8 @@ body{
 .header-lists{
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-list-item {
@@ -113,6 +117,8 @@ body{
     line-height: 1.5;
     color:var(--accent-text-color);
     letter-spacing: 0.02em; 
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-page > .container{
@@ -122,6 +128,7 @@ body{
     margin-left: auto;
     display: flex;
     gap: 40px;
+    
 }
 .header-mailto {
     font-weight: 400;
@@ -129,7 +136,8 @@ body{
     line-height: 1.5;
     color: var(--primary-text-color);
     letter-spacing: 0.02em;
-   
+padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-telefone {
     font-weight: 400;
@@ -137,7 +145,8 @@ body{
     line-height: 1.5;
     color: var(--primary-text-color);
     letter-spacing: 0.02em;
-    
+    padding-top: 24px;
+        padding-bottom: 24px;
 }
     /* ===================оформлення студіо=================== */
 /* оформлення мейна */
@@ -162,9 +171,9 @@ body{
     margin-bottom: 48px;   
     
 }
-    .hero > .container{
-        text-align: center;
-    }
+.hero > .container{
+    text-align: center;
+ }
 .hero-button {
     font-family:var(--primary-font-family);
     font-weight: 500;
@@ -175,11 +184,13 @@ body{
     letter-spacing: 0.02em;
     cursor: pointer;
     border: none;
-    
-    min-width: 169px;
-    height: 56px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 16px 32px;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -187,9 +198,8 @@ body{
 } 
 /* оформлення мейна секція два */
 .direction {
-    padding-top: 120px;
-    padding-bottom: 120px;
-} 
+    padding-top: 120px;}
+
 .direction-title {
     margin-bottom: 8px; 
 }
@@ -214,7 +224,6 @@ body{
 } 
 /* оформлення мейна секція три */
 .work {
-    padding-bottom: 120px;
  
 }
 .work-title {
@@ -236,8 +245,7 @@ body{
 /* оформлення мейна секція чотири*/
 .tem {
     background-color:var(--accent-background-color);
-    padding-bottom: 120px;
-    padding-top: 120px;
+    
 }
 .team-title {
     text-align: center;
@@ -249,6 +257,9 @@ body{
 .team-list {
     margin-right: 24px;
     text-align: center;
+    background-color: var(--primary-background-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-list:last-child{
     margin-right: 0px;
@@ -308,9 +319,10 @@ body{
 } */
 /* офрмлення секції один */
  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 .portfolio-link{
-    padding-top: 96px;
     padding-bottom: 72px;
     display: flex;
     justify-content: center;
@@ -346,8 +358,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    padding-top: 72px;
-    padding-bottom: 120px;
 }
 /* .product-item {
     max-width: 360px;
@@ -374,5 +384,4 @@ body{
 }
 .text-img{
     border: 1px solid #E7E9FC;
-    margin-bottom: 48px;
 }
