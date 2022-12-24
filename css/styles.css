@@ -55,7 +55,7 @@ body{
 }
 .container{
     width: 1128px;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     margin-left: auto;
     margin-right: auto;
 }
