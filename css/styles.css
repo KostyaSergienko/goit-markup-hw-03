@@ -53,7 +53,7 @@ body{
 }
 .container{
     width: 1158px;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -268,6 +268,22 @@ body{
     margin-bottom: 32px;
     font-weight: 400;
 } 
+/* секція п'ять */
+.customers {
+padding-top: 130px;
+}
+
+.customerst-title{
+text-align: center;
+margin-bottom: 72px;
+}
+.customers-list {
+
+}
+
+.customers-link {
+
+}
 /*======оформлення футера для студіо і портфоліо===========*/
 .footer-page {
     background-color:var(--accent-text-color);
